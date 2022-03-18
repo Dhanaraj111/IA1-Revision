@@ -19,7 +19,7 @@ void input_array(int n,int a[n])
 }
 int sum_n_arrays(int n,int a[n])
 {
-  int i,sum=o;
+  int i,sum=0;
   for (i=0;i<n;i++)
     {
       sum+=a[i];
